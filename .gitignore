@@ -44,9 +44,4 @@ ui/dev/js/vendor/
 ui/dev/fonts/
 ui/dev/*.html
 
-/wordpress/*
-!/wordpress/migrate/
-/wordpress/wp-content/*
-!/wordpress/wp-content/plugins
-!/wordpress/wp-content/themes
-!/wordpress/wp-content/uploads
+/env/dev.php
