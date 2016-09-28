@@ -43,13 +43,8 @@ ui/dev/img/
 ui/dev/js/vendor/
 ui/dev/fonts/
 ui/dev/*.html
-*.eot
-*.ttf
-*.woff
-*.svg
 
 /wordpress/*
-!/wordpress/env/
 !/wordpress/migrate/
 /wordpress/wp-content/*
 !/wordpress/wp-content/plugins
