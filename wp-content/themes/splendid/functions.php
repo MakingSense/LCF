@@ -229,6 +229,7 @@ function splendid_scripts() {
 	wp_register_style( 'mobilenav', get_template_directory_uri() . '/css/mobilenav.css',null, TS_THEME_VERSION,'screen and (max-width: 991px)');
 	wp_register_style( 'splendid-style', get_template_directory_uri() . '/css/style.css',null, TS_THEME_VERSION);
 	wp_register_style( 'splendid-responsive', get_template_directory_uri() . '/css/responsive.css',null, TS_THEME_VERSION);
+	wp_register_style( 'ms-styles', get_template_directory_uri() . '/css/ms-styles.css' );
 
 	wp_enqueue_style( 'bootstrap');
 	wp_enqueue_style( 'fontawesome');
@@ -236,6 +237,7 @@ function splendid_scripts() {
 	wp_enqueue_style( 'mobilenav');
 	wp_enqueue_style( 'splendid-style');
 	wp_enqueue_style( 'splendid-responsive');
+	wp_enqueue_style( 'ms-styles');
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
 
 	wp_register_script( 'gmapsensor', '//maps.google.com/maps/api/js?sensor=false&#038;ver=4.0.1',array(),TS_THEME_VERSION,true);
@@ -301,7 +303,7 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-/**
+/** 
  * Singleton class supports passing arguments to the templates
  */
 require get_template_directory() . '/extensions/class/ThemeArguments.class.php';

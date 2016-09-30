@@ -1,0 +1,24 @@
+/* Header styles */
+.logo a img {
+	height: 80px;
+}
+
+.page-heading.style-image {
+	padding-top: 260px;
+	padding-bottom: 160px;
+}
+
+.navigation #main-nav.color-white + .btn-container a.button:before {
+	background-color: #ec1846 !important;
+}
+
+.title h1 {
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.title p {
+	font-size: 24px;
+	line-height: 1.25;
+}
+/* End header styles */
