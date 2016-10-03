@@ -12,20 +12,45 @@
 
 .page-heading.style-image {
   padding-top: 260px;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
 }
 
 .navigation #main-nav.color-white + .btn-container a.button:before {
-  background-color: #ec1846 !important;
+  background-color: $brand-primary !important;
+}
+
+#header .navigation>div {
+  width: 24%;
+}
+
+.color-dark .btn-container {
+  text-align: right;
+
+  a {
+    color: $msuif-font-color-bright;
+    border: none;
+
+    &:first-of-type {
+      margin: 0 10px;
+    }
+  }
 }
 
 .title h1 {
   font-size: 100px;
   font-weight: bold;
+  margin-bottom: torem(20px);
 }
 
 .title p {
   font-size: 24px;
   line-height: 1.25;
+  text-align: center;
+}
+
+.title + .btn {
+  margin-top: torem(100px);
+  font-size: 35px;
+  padding: torem(20px);
 }
 /* End header styles */

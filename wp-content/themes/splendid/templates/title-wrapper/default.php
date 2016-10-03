@@ -23,6 +23,7 @@
 		<?php if (ts_get_opt('title-wrapper-breadcrumbs')): ?>
 			<?php splendid_breadcrumbs(); ?>
 		<?php endif; ?>
+		<a href="#" class="btn btn--primary">That's why we exist</a>
 	</div>
 </section>
 <!-- /Page Heading -->

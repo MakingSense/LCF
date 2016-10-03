@@ -51,7 +51,13 @@
 									));
 								endif;
 								?>
-							</div>								
+
+								<ul class="list--social">
+									<li class="list__icon"><span class="fa fa-facebook-f"></span></li>
+									<li class="list__icon"><span class="fa fa-twitter"></span></li>
+								</ul>								
+							</div>
+
 						</nav>
 						<?php get_template_part('templates/header/parts/button'); ?>
 						<?php get_template_part('templates/header/parts/cart'); ?>

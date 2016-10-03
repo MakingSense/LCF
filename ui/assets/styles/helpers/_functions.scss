@@ -90,3 +90,11 @@
   }
   @return $map;
 }
+
+/// Get values in colors map. Thanks to Hugo Giraudel
+/// @author Hugo Giraudel
+/// @param {$key} $key - key
+/// @return {string}
+@function brand-color($key) {
+  @return map-get($brand-colors, $key);
+}

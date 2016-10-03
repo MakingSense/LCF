@@ -1,6 +1,10 @@
 ////
 /// Buttons
 /// @group Component - Buttons
+///
+/// Markup example
+///  <a href="#" class="btn btn--primary">This is a link, but looks like a button</a>
+///  <button class="btn btn--secondary">This is a button</button>
 ////
 
 a,
@@ -10,12 +14,39 @@ button {
   text-decoration: none;
 
   &.btn {
+    display: inline-block;
+    color: $msuif-font-color-bright;
+    text-transform: uppercase;
+    padding: torem(10px);
+    font-weight: $msuif-font-weight-bold;
+    transition: background-color $msuif-transition-duration $msuif-transition-timing;
+
     &--primary {
-      
+      background-color: $brand-primary;
+
+      &:hover {
+        background-color: lighten($brand-primary, 10%) !important;
+      }
+
+      &:active {
+        background-color: lighten($brand-primary, 20%);
+      }
     }
 
     &--secondary {
-      
+      background-color: transparent;
+      box-shadow: inset 2px 2px 0 0 $brand-primary,
+                  inset -2px -2px 0 0 $brand-primary;
+
+      &:hover {
+        background-color: $brand-primary !important;
+      }
+
+      &:active {
+        background-color: lighten($brand-primary, 20%);
+        box-shadow: inset 2px 2px 0 0 lighten($brand-primary, 20%),
+                    inset -2px -2px 0 0 lighten($brand-primary, 20%);
+      }
     }
   }
 }
