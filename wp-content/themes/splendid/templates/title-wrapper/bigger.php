@@ -19,7 +19,6 @@
 					echo '<p>'.wp_kses_post($subtitle).'</p>';
 				endif;
 			endif; ?>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ipsa est reiciendis, animi quia cum quibusdam saepe fugiat quo quos similique rem autem consequuntur magnam assumenda voluptatum incidunt sed molestias.</p>
 		</div>
 		<?php if (ts_get_opt('title-wrapper-breadcrumbs')): ?>
 			<?php splendid_breadcrumbs(); ?>
