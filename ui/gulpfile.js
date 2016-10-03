@@ -10,6 +10,8 @@ sourcemaps = require('gulp-sourcemaps'),
 browserSync = require('browser-sync').create(),
 // Require Del to clean dev folder
 del = require('del'),
+// Require rename
+rename = require('gulp-rename'),
 // Require Process HTML
 processHtml = require('gulp-processhtml'),
 // Require iconfont generator plugin
@@ -40,6 +42,11 @@ var config = {
     normalize: 'bower_components/normalize-scss',
     sassyCast: 'bower_components/sassy-cast',
     jquery: 'bower_components/jquery-latest'
+  },
+
+  folderWordpress: {
+    base: '../wp-content',
+    theme: '../wp-content/themes/splendid/css',
   },
 
   // Sassdoc task options
@@ -207,7 +214,11 @@ gulp.task('bowercopy:jquery', function () {
   return gulp.src([config.folderBower.jquery + '/dist/jquery.min.js'])
   .pipe(gulp.dest(config.folderDev.base + '/js/vendor'));
 });
-
+gulp.task('copy:sass2theme', ['sass'], function () {
+  return gulp.src([config.folderDev.css + '/styles.css'])
+  .pipe(rename('ms-styles.css'))
+  .pipe(gulp.dest(config.folderWordpress.theme));
+});
 
 // Delete dev folder for cleaning
 gulp.task('clean', ['clean:styles', 'clean:fonts']);
@@ -219,12 +230,11 @@ gulp.task('clean:fonts', function() {
   return del.sync([config.folderDev.fonts, config.folderAssets.base + '/libs/iconfont']);
 });
 
-
 // Watch for changes
 gulp.task('run', ['build', 'serve'], function (){
   gulp.watch(config.folderAssets.base + '/**/*.scss', ['sass']);
   gulp.watch(config.folderAssets.base + '/icons/*.svg', ['build']);
-  gulp.watch(config.folderDev.css + '/*.css', ['autoprefixer']);
+  gulp.watch(config.folderDev.css + '/*.css', ['autoprefixer', 'copy:sass2theme']);
   gulp.watch(config.folderAssets.base + '/templates/*.html', ['processHtml']);
   // Uncomment if want to watch for js changes
   // gulp.watch('app/js/**/*.js', browserSync.reload); 
