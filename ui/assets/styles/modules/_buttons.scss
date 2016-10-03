@@ -2,3 +2,20 @@
 /// Buttons
 /// @group Component - Buttons
 ////
+
+a,
+button {
+  background: none;
+  border: none;
+  text-decoration: none;
+
+  &.btn {
+    &--primary {
+      
+    }
+
+    &--secondary {
+      
+    }
+  }
+}

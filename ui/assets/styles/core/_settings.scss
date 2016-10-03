@@ -31,8 +31,6 @@ $msuif-font-color-dark:           $msuif-font-color;
 ///
 $msuif-font-color-white:          #fff;
 
-
-
 /// Background ///
 ///
 $msuif-background:                $msuif-font-color-bright;
@@ -40,12 +38,20 @@ $msuif-background:                $msuif-font-color-bright;
 $msuif-background-bright:         $msuif-background;
 
 
+/// Colors ///
+///
+$brand-colors: (
+  'primary': ,
+  'secondary': ,
+  'tertiary': ,
+  'quaternary': ,
+  'quinary': ,
+  'senary': 
+);
 
 /// Wrapper ///
 ///
 $msuif-wrapper-min-width:         torem(1200px);
-
-
 
 /// Breakpoints ///
 ///
@@ -57,8 +63,6 @@ $msuif-breakpoints: (
   'ismobile': (max-width: 1024px),
   'iphone': (max-width: 980px)
 );
-
-
 
 /// Transition/Animation ///
 ///
