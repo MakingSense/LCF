@@ -6,6 +6,45 @@
 ////
 
 /* Header styles */
+
+#header .logo {
+  @include respond-to('iphone') {
+    float:left;
+  }
+}
+
+#header .navigation {
+
+  > .btn {
+    display: none;
+    margin: 15px 20px;
+  }
+
+  #mobile-menu-button {
+    border: none;
+    background-color: transparent;
+    position: relative;
+
+    span {
+      background-color: $msuif-background;
+    }
+  }
+
+  @include respond-to('iphone') {
+    float: right;
+    padding: 24px 0;
+
+    > nav {
+      display: inline-block !important;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+}
+
 .logo a img {
   height: 80px;
 }
@@ -20,7 +59,7 @@
 }
 
 #header .navigation>div {
-  width: 24%;
+  width: auto;
 }
 
 .color-dark .btn-container {

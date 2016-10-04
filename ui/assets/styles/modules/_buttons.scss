@@ -31,6 +31,11 @@ button {
       &:active {
         background-color: lighten($brand-primary, 20%);
       }
+
+      &.btn--inverse {
+        background-color: $msuif-font-color-bright;
+        color: $brand-primary;
+      }
     }
 
     &--secondary {
@@ -46,6 +51,11 @@ button {
         background-color: lighten($brand-primary, 20%);
         box-shadow: inset 2px 2px 0 0 lighten($brand-primary, 20%),
                     inset -2px -2px 0 0 lighten($brand-primary, 20%);
+      }
+
+      &.btn--inverse {
+        box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                  inset -2px -2px 0 0 $msuif-font-color-bright;
       }
     }
   }

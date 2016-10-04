@@ -3,9 +3,11 @@
 /// -> UL and OL elements? Yeah, those two go here for reusable components
 ////
 
-.list {
+ul.list {
     &--social {
+
     li.list__icon {
+      display: inline-block !important;
       font-size: $msuif-font-size-large;
       padding: torem(10px);
       transition: color $msuif-transition-duration $msuif-transition-timing;

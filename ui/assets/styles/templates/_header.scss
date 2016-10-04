@@ -3,3 +3,48 @@
 /// @group Header
 /// @author MS
 ////
+
+#main-nav .menu--mobile {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: -1px;
+  height: 100vh;
+  width: 65vw;
+  padding: torem(34px) torem(30px);
+  transform: translate(100%, 0);
+  transition: transform $msuif-transition-duration $msuif-transition-timing;
+  background-color: $brand-primary;
+  color: $msuif-font-color-bright;
+  box-shadow: -1px 0 5px 0 $msuif-font-color;
+
+  &.mobile__active {
+    transform: translate(0);
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #mobile-menu-close {
+      font-size: 24px;
+    }
+  }
+
+  .navlist {
+    font-size: 14px;
+    
+    li {
+      padding: torem(10px);
+    }
+  }
+
+  @include respond-to('iphone') {
+    display: block;
+  }
+
+  li + li>a {
+    border-top: 0 !important;
+  }
+}
