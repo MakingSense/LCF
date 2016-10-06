@@ -322,3 +322,15 @@ require get_template_directory() . '/inc/custom-menus.php';
  * WooCommerce integration
  */
 require get_template_directory() . '/inc/woocommerce.php';
+
+add_action( 'admin_menu', 'remove_post_meta_boxes' );
+add_action( 'admin_init', 'remove_post_meta_boxes' );
+add_action( 'admin_head', 'remove_post_meta_boxes' );
+
+function remove_post_meta_boxes() {
+  if( isset( $_GET['post'] ) && $_GET['post'] == '20' ) {
+    remove_meta_box('redux-ts_theme_options-metabox-ts-template-blog-options', 'post', 'normal');
+    remove_meta_box('redux-ts_theme_options-metabox-ts-page-options', 'post', 'normal');
+    remove_meta_box('mymetabox_revslider_0', 'post', 'normal');
+  }
+}
