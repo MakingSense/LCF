@@ -7,6 +7,8 @@
 
 ?>
 
+
+
 <!-- HEADER -->
 <header id="header" class="header7  header_fixed_enabled">
 	<?php ts_get_preheader_template_part(); ?>
@@ -54,8 +56,16 @@
 								?>
 
 								<ul class="list--social">
-									<li class="list__icon"><span class="fa fa-facebook-f"></span></li>
-									<li class="list__icon"><span class="fa fa-twitter"></span></li>
+									<li class="list__icon">
+										<a href="">
+											<span class="fa fa-facebook-f"></span>
+										</a>
+									</li>
+									<li class="list__icon">
+										<a href="">
+											<span class="fa fa-twitter"></span>
+										</a>
+									</li>
 								</ul>								
 							</div>
 
@@ -69,19 +79,17 @@
 								<div class="navlist">
 									<details>
 										<summary>Who we are</summary>
-										<div>
-											<ul>
-												<li>Staff</li>
-												<li>Board</li>
-												<li>Mission and History</li>
-												<li>Why Donors Choose LCF</li>
-												<li>Press and MEdia Resources</li>
+											<ul class="list">
+												<li><a href="">Staff</a></li>
+												<li><a href="">Board</a></li>
+												<li><a href="">Mission and History</a></li>
+												<li><a href="">Why Donors Choose LCF</a></li>
+												<li><a href="">Press and Media Resources</a></li>
 											</ul>
-										</div>
 									</details>
 									<details>
 										<summary>What we do</summary>
-										<ul>
+										<ul class="list">
 											<li></li>
 										</ul>
 									</details>
@@ -95,13 +103,17 @@
 									</ul>
 									<details>
 										<summary>Giving & Investing</summary>
-										<ul>
+										<ul class="list">
 											<li></li>
 										</ul>
 									</details>
 									<ul class="list--social">
-										<li class="list__icon"><span class="fa fa-facebook-f"></span></li>
-										<li class="list__icon"><span class="fa fa-twitter"></span></li>
+										<li class="list__icon">
+											<a href=""><span class="fa fa-facebook-f"></span></a>
+										</li>
+										<li class="list__icon">
+											<a href=""><span class="fa fa-twitter"></span></a>
+										</li>
 									</ul>
 									<a href="#" class="btn btn--secondary btn--inverse">Nuestra voz</a>
 								</div>

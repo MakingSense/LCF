@@ -35,6 +35,10 @@ button {
       &.btn--inverse {
         background-color: $msuif-font-color-bright;
         color: $brand-primary;
+
+        &:hover {
+          color: $msuif-font-color-bright;
+        }
       }
     }
 
@@ -56,6 +60,11 @@ button {
       &.btn--inverse {
         box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
                   inset -2px -2px 0 0 $msuif-font-color-bright;
+
+        &:hover {
+          background-color: $msuif-font-color-bright !important;
+          color: $brand-primary;
+        }
       }
     }
   }

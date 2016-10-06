@@ -13,6 +13,11 @@
   }
 }
 
+#header #main-header ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #header .navigation {
 
   > .btn {
@@ -50,8 +55,21 @@
 }
 
 .page-heading.style-image {
-  padding-top: 260px;
-  padding-bottom: 60px;
+  padding-top: 250px;
+  padding-bottom: 50px;
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.page-heading.align-center > .container {
+  position: relative;
 }
 
 .navigation #main-nav.color-white + .btn-container a.button:before {
@@ -75,13 +93,13 @@
   }
 }
 
-.title h1 {
-  font-size: 100px;
+.page-heading.style-image .title h1 {
+  font-size: 104px;
   font-weight: bold;
   margin-bottom: torem(20px);
 }
 
-.title p {
+.page-heading.style-image .title p {
   font-size: 24px;
   line-height: 1.25;
   text-align: center;
@@ -89,7 +107,7 @@
 
 .title + .btn {
   margin-top: torem(100px);
-  font-size: 35px;
-  padding: torem(20px);
+  font-size: 36px;
+  padding: torem(15px) torem(35px);
 }
 /* End header styles */

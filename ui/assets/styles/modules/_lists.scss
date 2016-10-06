@@ -4,12 +4,14 @@
 ////
 
 ul.list {
-    &--social {
-
+  li {
+    display: block !important;
+  }
+  &--social {
     li.list__icon {
       display: inline-block !important;
       font-size: $msuif-font-size-large;
-      padding: torem(10px);
+      padding: torem(10px) !important;
       transition: color $msuif-transition-duration $msuif-transition-timing;
 
       a {
@@ -20,12 +22,14 @@ ul.list {
         }
       }
 
-      &:last-child {
-        margin-right: torem(20px);
+      &:not(&:first-child) {
+        margin-left: torem(20px);
       }
-
+      
       &:hover {
-        color: $brand-primary;
+        a {
+          color: $brand-primary;
+        }
       }
     }
   }
