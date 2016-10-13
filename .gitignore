@@ -44,4 +44,7 @@ ui/dev/js/vendor/
 ui/dev/fonts/
 ui/dev/*.html
 
+.ftppass
+sftpCache.json
+
 /env/dev.php
