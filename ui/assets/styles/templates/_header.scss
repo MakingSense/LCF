@@ -81,8 +81,23 @@
       }
 
       &.list__icon {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 50px;
+
         a {
           font-size: $msuif-font-size-large !important;
+
+          &:hover {
+            color: $msuif-font-color-bright !important;
+          }
+        }
+        
+        &:hover {
+          box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                      inset -2px -2px 0 0 $msuif-font-color-bright;
         }
       }
 
@@ -105,4 +120,9 @@
   li + li > a {
     border-top: 0 !important;
   }
+}
+
+#header.fixed-header #main-header .menu>ul>li>a {
+  padding-bottom: 5px;
+  margin-bottom: 18px;
 }

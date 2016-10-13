@@ -558,12 +558,12 @@
 					$mainNavMenu.removeClass('mobile__active');
 				});
 				
-				// Dropdown Icons
+				// // Dropdown Icons
 				// $navParentItems.each(function(){
 				// 	$(this).append('<div class="dropdown-icon"><span></span></div>');
 				// });
 				
-				// Dropdown Event
+				// // Dropdown Event
 				// $mainNav.find('.dropdown-icon').on('click', function(){
 				// 	if ($(this).parents('.megamenu').length) {
 				// 		$(this).parent().toggleClass('dropdown-active').find('.dropdown-inner').slideToggle(600, function(){

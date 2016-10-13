@@ -18,7 +18,11 @@ ul.list {
         color: $msuif-font-color-bright;
 
         &:hover {
-          color: $msuif-font-color-bright;
+          color: $brand-primary !important;
+        }
+
+        &:before {
+          content: none !important;
         }
       }
 

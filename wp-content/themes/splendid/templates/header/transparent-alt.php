@@ -17,14 +17,14 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-lg-3 col-md-3 col-sm-3">
+				<div class="col-lg-2 col-md-1 col-sm-1">
 					<div class="logo">
 						<?php splendid_logo('logo-light', get_template_directory_uri().'/img/logo-light.png', 'logo-light'); ?>
 						<?php splendid_logo('logo', get_template_directory_uri().'/img/logo.png', 'logo-dark'); ?>
 					</div>
 				</div>
 
-				<div class="col-lg-9 col-md-9 col-sm-9">	
+				<div class="col-lg-10 col-md-11 col-sm-11">	
 					<div class="navigation">
 						<a class="btn btn--primary">Donate</a>
 						<nav id="main-nav" class="<?php echo sanitize_html_classes(ts_get_opt('header-menu-color')); ?> <?php echo sanitize_html_classes(ts_get_opt('header-menu-color-active')); ?> <?php echo sanitize_html_classes(ts_get_opt('header-menu-dropdown-color')); ?> <?php echo sanitize_html_classes(ts_get_opt('header-menu-border-color')); ?>">

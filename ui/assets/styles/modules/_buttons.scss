@@ -25,11 +25,11 @@ button {
       background-color: $brand-primary;
 
       &:hover {
-        background-color: lighten($brand-primary, 10%) !important;
+        background-color: darken($brand-primary, 10%) !important;
       }
 
       &:active {
-        background-color: lighten($brand-primary, 20%);
+        background-color: darken($brand-primary, 20%);
       }
 
       &.btn--inverse {
@@ -37,7 +37,10 @@ button {
         color: $brand-primary;
 
         &:hover {
+          background-color: $brand-primary !important;
           color: $msuif-font-color-bright;
+          box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                      inset -2px -2px 0 0 $msuif-font-color-bright;
         }
       }
     }
@@ -48,13 +51,15 @@ button {
                   inset -2px -2px 0 0 $brand-primary;
 
       &:hover {
-        background-color: $brand-primary !important;
+        box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                    inset -2px -2px 0 0 $msuif-font-color-bright;
+        background-color: transparent;
       }
 
       &:active {
-        background-color: lighten($brand-primary, 20%);
-        box-shadow: inset 2px 2px 0 0 lighten($brand-primary, 20%),
-                    inset -2px -2px 0 0 lighten($brand-primary, 20%);
+        background-color: darken($brand-primary, 20%);
+        box-shadow: inset 2px 2px 0 0 darken($brand-primary, 20%),
+                    inset -2px -2px 0 0 darken($brand-primary, 20%);
       }
 
       &.btn--inverse {

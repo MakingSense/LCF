@@ -51,7 +51,7 @@
 }
 
 .logo a img {
-  height: 80px;
+  height: 80px !important;
 }
 
 .page-heading.style-image {
@@ -86,9 +86,14 @@
   a {
     color: $msuif-font-color-bright;
     border: none;
+    transition: all  $msuif-transition-duration $msuif-transition-timing;
 
     &:first-of-type {
       margin: 0 10px;
+    }
+
+    &:hover {
+      background-color: transparent;
     }
   }
 }
