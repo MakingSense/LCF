@@ -2,3 +2,39 @@
 /// Lists
 /// -> UL and OL elements? Yeah, those two go here for reusable components
 ////
+
+ul.list {
+  li {
+    display: block !important;
+  }
+  &--social {
+    li.list__icon {
+      display: inline-block !important;
+      font-size: $msuif-font-size-large;
+      padding: torem(10px) !important;
+      transition: color $msuif-transition-duration $msuif-transition-timing;
+
+      a {
+        color: $msuif-font-color-bright;
+
+        &:hover {
+          color: $brand-primary !important;
+        }
+
+        &:before {
+          content: none !important;
+        }
+      }
+
+      &:not(&:first-child) {
+        margin-left: torem(20px);
+      }
+      
+      &:hover {
+        a {
+          color: $brand-primary;
+        }
+      }
+    }
+  }
+}

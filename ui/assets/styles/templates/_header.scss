@@ -3,3 +3,126 @@
 /// @group Header
 /// @author MS
 ////
+
+#main-nav .menu--mobile {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: -1px;
+  height: 100vh;
+  min-width: 250px;
+  padding: 0 torem(30px);
+  transform: translate(100%, 0);
+  transition: transform $msuif-transition-duration $msuif-transition-timing;
+  background-color: $brand-primary;
+  color: $msuif-font-color-bright;
+  box-shadow: -1px 0 5px 0 $msuif-font-color;
+
+  &.mobile__active {
+    transform: translate(0);
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: torem(34px) 0;
+
+    #mobile-menu-close {
+      cursor: pointer;
+      font-size: 24px;
+    }
+  }
+
+  .list--social {
+    display: block;
+    padding: torem(34px) 0;
+
+    .list__icon {
+      &:hover {
+        color: darken($msuif-font-color-bright, 5%);
+      }
+    }
+  }
+
+  .navlist {
+    font-size: 14px;
+    font-weight: $msuif-font-weight-bold;
+    
+    li,
+    details {
+      padding: torem(15px) 0;
+
+      ul {
+        margin-left: torem(20px) !important;
+
+        li a {
+          font-weight: $msuif-font-weight-regular;
+        }
+      }
+
+      summary {
+        cursor: pointer;
+
+        &:hover {
+          color: darken($msuif-font-color-bright, 5%);
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    li {
+      a {
+        font-size: 14px !important;
+        text-transform: capitalize !important;
+      }
+
+      &.list__icon {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 50px;
+
+        a {
+          font-size: $msuif-font-size-large !important;
+
+          &:hover {
+            color: $msuif-font-color-bright !important;
+          }
+        }
+        
+        &:hover {
+          box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                      inset -2px -2px 0 0 $msuif-font-color-bright;
+        }
+      }
+
+      &:hover {
+        a {
+          color: darken($msuif-font-color-bright, 5%);
+        }
+      }
+
+      & + li {
+        margin-left: 0;
+      }
+    }
+  }
+
+  @include respond-to('iphone') {
+    display: block;
+  }
+
+  li + li > a {
+    border-top: 0 !important;
+  }
+}
+
+#header.fixed-header #main-header .menu>ul>li>a {
+  padding-bottom: 5px;
+  margin-bottom: 18px;
+}

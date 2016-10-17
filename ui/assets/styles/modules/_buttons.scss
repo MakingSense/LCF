@@ -1,6 +1,10 @@
 ////
 /// Buttons
 /// @group Component - Buttons
+///
+/// Markup example
+///  <a href="#" class="btn btn--primary">This is a link, but looks like a button</a>
+///  <button class="btn btn--secondary">This is a button</button>
 ////
 
 a,
@@ -10,12 +14,63 @@ button {
   text-decoration: none;
 
   &.btn {
+    display: inline-block;
+    color: $msuif-font-color-bright;
+    text-transform: uppercase;
+    padding: torem(10px);
+    font-weight: $msuif-font-weight-bold;
+    transition: background-color $msuif-transition-duration $msuif-transition-timing;
+
     &--primary {
-      
+      background-color: $brand-primary;
+
+      &:hover {
+        background-color: darken($brand-primary, 10%) !important;
+      }
+
+      &:active {
+        background-color: darken($brand-primary, 20%);
+      }
+
+      &.btn--inverse {
+        background-color: $msuif-font-color-bright;
+        color: $brand-primary;
+
+        &:hover {
+          background-color: $brand-primary !important;
+          color: $msuif-font-color-bright;
+          box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                      inset -2px -2px 0 0 $msuif-font-color-bright;
+        }
+      }
     }
 
     &--secondary {
-      
+      background-color: transparent;
+      box-shadow: inset 2px 2px 0 0 $brand-primary,
+                  inset -2px -2px 0 0 $brand-primary;
+
+      &:hover {
+        box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                    inset -2px -2px 0 0 $msuif-font-color-bright;
+        background-color: transparent;
+      }
+
+      &:active {
+        background-color: darken($brand-primary, 20%);
+        box-shadow: inset 2px 2px 0 0 darken($brand-primary, 20%),
+                    inset -2px -2px 0 0 darken($brand-primary, 20%);
+      }
+
+      &.btn--inverse {
+        box-shadow: inset 2px 2px 0 0 $msuif-font-color-bright,
+                  inset -2px -2px 0 0 $msuif-font-color-bright;
+
+        &:hover {
+          background-color: $msuif-font-color-bright !important;
+          color: $brand-primary;
+        }
+      }
     }
   }
 }

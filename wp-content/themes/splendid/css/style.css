@@ -187,6 +187,19 @@ Last change:	11/13/2015
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('../fonts/trade-gothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Trade Gothic Condensed';
+    src: url('../fonts/trade-gothic-condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 										2. Animations 
@@ -2178,13 +2191,13 @@ body.headerstyle7 .full-width{
 #header.header7 #main-nav li a {
 	position: relative;
 }
-#header.header7.fixed-header #main-nav li a { color:#718097;}
+/*#header.header7.fixed-header #main-nav li a { color:#718097;}
 #header.header7.not-fixed #main-nav li:hover > a{
 	opacity: 0.7;
 }
 #header.fixed-header #main-header.bg-white #main-nav li a{
 	color:#718097;
-}
+}*/
 #header.header7 #main-nav li ul {
 	border: none !important;
 }
@@ -2216,12 +2229,12 @@ body.headerstyle7 .full-width{
 /********************************************
 		5-11-2. navigation active/hover
 *********************************************/
-#main-nav li:hover>a,
+/*#main-nav li:hover>a,
 #main-nav li.current-menu-item>a,
 #main-nav li.current-menu-ancestor>a{
 	color:#a65bf4;
 	opacity:1;
-}
+}*/
 #main-nav li:hover>a:before,
 #main-nav li.current-menu-item>a:before,
 #main-nav li.current-menu-ancestor>a:before,

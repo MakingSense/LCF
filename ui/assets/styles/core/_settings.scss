@@ -7,11 +7,15 @@
 
 /// Fonts ///
 ///
-$msuif-font-size:                 16px;
+$msuif-font-size:                 18px;
+///
+$msuif-font-size-large:           24px;
 ///
 $msuif-font-weight:               400;
 ///
-$msuif-font-family:               Arial, "Helvetica Neue", Helvetica, sans-serif;
+$msuif-font-family:               "Trade Gothic", Arial, "Helvetica Neue", Helvetica, sans-serif;
+///
+$msuif-font-family-condensed:     "Trade Gothic Condensed", Arial, "Helvetica Neue", Helvetica, sans-serif;
 ///
 $msuif-font:                      $msuif-font-weight toem($msuif-font-size) $msuif-font-family;
 ///
@@ -25,7 +29,7 @@ $msuif-font-weight-bold:          700;
 ///
 $msuif-font-color:                #101010;
 ///
-$msuif-font-color-bright:         #edede6;
+$msuif-font-color-bright:         #fff;
 ///
 $msuif-font-color-dark:           $msuif-font-color;
 ///
@@ -33,21 +37,28 @@ $msuif-font-color-white:          #fff;
 
 /// Background ///
 ///
-$msuif-background:                $msuif-font-color-bright;
+$msuif-background:                $msuif-font-color-white;
 ///
-$msuif-background-bright:         $msuif-background;
+$msuif-background-bright:         #DFDFDF;
 
 
 /// Colors ///
 ///
 $brand-colors: (
-  'primary': ,
-  'secondary': ,
-  'tertiary': ,
-  'quaternary': ,
-  'quinary': ,
-  'senary': 
+  'primary': #EC1846,
+  'secondary': #00AEEF,
+  'tertiary': #F58220,
+  'quaternary': #ED0080
 );
+
+///
+$brand-primary:                   brand-color('primary');
+///
+$brand-secondary:                 brand-color('secondary');
+///
+$brand-tertiary:                  brand-color('tertiary');
+///
+$brand-quaternary:                brand-color('quaternary');
 
 /// Wrapper ///
 ///
