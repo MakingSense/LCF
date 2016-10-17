@@ -1,0 +1,826 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Splendid Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-15 14:50+0100\n"
+"PO-Revision-Date: 2016-02-15 14:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: Medialayout\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: splendid-addons\n"
+
+#: splendid-addons/theme-plugins.php:94
+msgid "Please activate the Splendid theme to use Splendid Addons plugin."
+msgstr ""
+
+#: splendid-addons/theme-plugins.php:99
+msgid "Activate theme"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Tweets_Widget.class.php:12
+msgid "Displays the most latest tweets"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Tweets_Widget.class.php:13
+msgid "Splendid: Latest Tweets"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Tweets_Widget.class.php:46
+msgid "Latest Tweets"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Tweets_Widget.class.php:127
+#: splendid-addons/widgets/WP_Alternative_Custom_Menu_Widget.class.php:55
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:138
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:121
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:100
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:138
+#: splendid-addons/widgets/WP_Social_Icons_Widget.class.php:86
+msgid "Title:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Tweets_Widget.class.php:130
+msgid "User name:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Tweets_Widget.class.php:133
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:141
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:141
+msgid "Number of posts to show:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Alternative_Custom_Menu_Widget.class.php:11
+msgid "Add an alternative custom menu to your sidebar."
+msgstr ""
+
+#: splendid-addons/widgets/WP_Alternative_Custom_Menu_Widget.class.php:12
+msgid "Splendid: Alternative Custom Menu"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Alternative_Custom_Menu_Widget.class.php:50
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: splendid-addons/widgets/WP_Alternative_Custom_Menu_Widget.class.php:59
+msgid "Select Menu:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:12
+msgid "Displays the most latest posts"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:13
+msgid "Splendid: Latest Posts"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:46
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:46
+msgid "Popular Posts"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:132
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:124
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:132
+msgid "Style:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:134
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:134
+msgid "With Thumbs"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Latest_Posts_Widget.class.php:135
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:135
+msgid "Text only"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:12
+msgid "Displays feature box"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:13
+msgid "Splendid: Contact Details"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:130
+msgid "Subtitle"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:134
+msgid "Icon 1:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:144
+msgid "Text 1"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:147
+msgid "Icon 2:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:157
+msgid "Text 2"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:160
+msgid "Icon 3:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Contact_Details_Widget.class.php:170
+msgid "Text 3"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:12
+msgid "Displays "
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:13
+msgid "Splendid: Quatro Ads"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:109
+msgid "Link ("
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:112
+msgid "Target ("
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:114
+msgid "Same window"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:115
+msgid "New window"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:118
+msgid "Image URL"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:122
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:123
+msgid "Upload"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Quatro_Ads_Widget.class.php:123
+msgid "Use Image"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:12
+msgid "Displays the most popular posts"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Popular_Posts_Widget.class.php:13
+msgid "Splendid: Popular Posts"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Social_Icons_Widget.class.php:12
+msgid "Displays list of social icons"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Social_Icons_Widget.class.php:13
+msgid "Splendid: Social Icons"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Social_Icons_Widget.class.php:89
+msgid "Category:"
+msgstr ""
+
+#: splendid-addons/widgets/WP_Social_Icons_Widget.class.php:91
+msgid "Choose"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_blog_magazine_popular.php:61
+msgid "Most Popular Posts"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_blog_magazine_popular.php:63
+#: splendid-addons/shortcodes/rs_woo_featured_products.php:103
+#: splendid-addons/shortcodes/rs_latest_works.php:105
+msgid "Previous"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_blog_magazine_popular.php:64
+#: splendid-addons/shortcodes/rs_woo_featured_products.php:104
+#: splendid-addons/shortcodes/rs_latest_works.php:106
+msgid "Next"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_blog_magazine_popular.php:80
+#: splendid-addons/shortcodes/rs_latest_news.php:176
+#: splendid-addons/shortcodes/rs_blog_magazine_trending.php:106
+#: splendid-addons/shortcodes/rs_blog_magazine_trending.php:177
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:105
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:153
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:185
+msgid "In"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_blog_magazine_popular.php:80
+#: splendid-addons/shortcodes/rs_latest_news.php:176
+#: splendid-addons/shortcodes/rs_blog_magazine_trending.php:106
+#: splendid-addons/shortcodes/rs_blog_magazine_trending.php:177
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:105
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:153
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:185
+msgid " / "
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_featured_products.php:101
+#: splendid-addons/composer/map.php:4946
+msgid "Featured Products"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_featured_products.php:124
+#: splendid-addons/shortcodes/rs_woo_best_seller.php:82
+msgid "Add To Cart"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_featured_products.php:125
+#: splendid-addons/shortcodes/rs_woo_best_seller.php:83
+#: splendid-addons/shortcodes/rs_portfolio_details.php:18
+msgid "Details"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_news.php:124
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:96
+msgid "Read More"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_news.php:134
+#: splendid-addons/shortcodes/rs_latest_news.php:179
+#: splendid-addons/shortcodes/rs_blog_magazine_trending.php:108
+#: splendid-addons/shortcodes/rs_blog_magazine.php:139
+#: splendid-addons/shortcodes/rs_blog_magazine.php:174
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:106
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:154
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:186
+msgid "By"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_news.php:146
+#: splendid-addons/shortcodes/rs_blog_magazine.php:149
+#: splendid-addons/shortcodes/rs_blog_magazine.php:184
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:116
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:196
+msgid "No Comments"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_news.php:146
+#: splendid-addons/shortcodes/rs_blog_magazine.php:149
+#: splendid-addons/shortcodes/rs_blog_magazine.php:184
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:116
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:196
+msgid "1 Comment"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_news.php:146
+#: splendid-addons/shortcodes/rs_blog_magazine.php:149
+#: splendid-addons/shortcodes/rs_blog_magazine.php:184
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:116
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:196
+msgid "% Comments"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_social_share.php:39
+msgid "Shares"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_social_share.php:57
+msgid "Facebook"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_social_share.php:58
+msgid "Twitter"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_social_share.php:59
+msgid "Google Plus"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_works.php:206
+#: splendid-addons/shortcodes/rs_portfolio.php:121
+#: splendid-addons/shortcodes/rs_portfolio.php:136
+msgid "All"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_works.php:274
+#: splendid-addons/shortcodes/rs_latest_works.php:298
+#: splendid-addons/shortcodes/rs_latest_works.php:323
+#: splendid-addons/shortcodes/rs_latest_works.php:347
+#: splendid-addons/shortcodes/rs_latest_works.php:373
+#: splendid-addons/shortcodes/rs_latest_works.php:399
+#: splendid-addons/shortcodes/rs_portfolio.php:413
+#: splendid-addons/shortcodes/rs_portfolio.php:508
+#: splendid-addons/shortcodes/rs_portfolio.php:568
+#: splendid-addons/shortcodes/rs_portfolio.php:628
+#: splendid-addons/shortcodes/rs_portfolio.php:655
+msgid "Zoom"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_latest_works.php:275
+#: splendid-addons/shortcodes/rs_latest_works.php:299
+#: splendid-addons/shortcodes/rs_latest_works.php:324
+#: splendid-addons/shortcodes/rs_latest_works.php:348
+#: splendid-addons/shortcodes/rs_latest_works.php:374
+#: splendid-addons/shortcodes/rs_latest_works.php:400
+#: splendid-addons/shortcodes/rs_portfolio.php:347
+#: splendid-addons/shortcodes/rs_portfolio.php:370
+#: splendid-addons/shortcodes/rs_portfolio.php:414
+#: splendid-addons/shortcodes/rs_portfolio.php:509
+#: splendid-addons/shortcodes/rs_portfolio.php:569
+#: splendid-addons/shortcodes/rs_portfolio.php:629
+#: splendid-addons/shortcodes/rs_portfolio.php:656
+msgid "View Project"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_best_seller.php:61
+msgid "Best Sellers"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_blog_magazine_alt.php:179
+msgid "Play Video"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:152
+msgid "Showing the single result"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:154
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:156
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:168
+msgid "Default sorting"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:169
+msgid "Sort by popularity"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:170
+msgid "Sort by average rating"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:171
+msgid "Sort by newness"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:172
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_woo_products.php:173
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_portfolio.php:211
+msgid "Load More"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_counter.php:47
+msgid "+"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_portfolio_details.php:23
+msgid "Client:"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_portfolio_details.php:27
+msgid "Posted on:"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_portfolio_details.php:33
+msgid "Skills"
+msgstr ""
+
+#: splendid-addons/shortcodes/rs_portfolio_details.php:50
+msgid "View Website"
+msgstr ""
+
+#: splendid-addons/composer/map.php:269
+msgid "CSS box"
+msgstr ""
+
+#: splendid-addons/composer/map.php:271
+msgid "Design Options"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4833 splendid-addons/composer/map.php:4920
+msgid "Rand"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4834 splendid-addons/composer/map.php:4921
+msgid "Date"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4835 splendid-addons/composer/map.php:4922
+msgid "Price"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4836 splendid-addons/composer/map.php:4923
+msgid "Popularity"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4837 splendid-addons/composer/map.php:4924
+msgid "Rating"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4838 splendid-addons/composer/map.php:4925
+msgid "Title"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4847 splendid-addons/composer/map.php:4934
+msgid "Ascending"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4848 splendid-addons/composer/map.php:4935
+msgid "Descending"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4945
+msgid "All Products"
+msgstr ""
+
+#: splendid-addons/composer/map.php:4947
+msgid "On-sale Products"
+msgstr ""
+
+#: splendid-addons/composer/helpers.php:166
+msgid "Default"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:176
+msgid "year"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:177
+msgid "month"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:178
+msgid "week"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:179
+msgid "day"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:180
+msgid "hour"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:181
+msgid "minute"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:182
+msgid "second"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:186
+msgid "years"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:187
+msgid "months"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:188
+msgid "weeks"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:189
+msgid "days"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:190
+msgid "hours"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:191
+msgid "minutes"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:192
+msgid "seconds"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:204
+msgid "ago"
+msgstr ""
+
+#: splendid-addons/extras/extras.php:204
+msgid "just now"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:6
+#: splendid-addons/custom-posts/social-site.php:18
+msgid "Social Sites"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:7
+#: splendid-addons/custom-posts/social-site.php:76
+msgid "Social Site"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:8
+#: splendid-addons/custom-posts/special-content.php:8
+#: splendid-addons/custom-posts/testimonial.php:9
+msgid "Add New"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:9
+msgid "Add New Social Site"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:10
+msgid "Edit Social Site"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:11
+msgid "New Social Site"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:12
+msgid "All Social Sites"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:13
+msgid "View Social Site"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:14
+msgid "Search Social Sites"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:15
+msgid "No Social Sites found"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:16
+msgid "No Social Sites found in the Trash"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:39
+#: splendid-addons/custom-posts/testimonial.php:41
+#: splendid-addons/custom-posts/portfolio.php:35
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:40
+#: splendid-addons/custom-posts/testimonial.php:42
+#: splendid-addons/custom-posts/portfolio.php:36
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:41
+#: splendid-addons/custom-posts/testimonial.php:43
+#: splendid-addons/custom-posts/portfolio.php:37
+msgid "Search categories"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:42
+#: splendid-addons/custom-posts/testimonial.php:44
+#: splendid-addons/custom-posts/portfolio.php:38
+msgid "All Categories"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:43
+#: splendid-addons/custom-posts/testimonial.php:45
+#: splendid-addons/custom-posts/portfolio.php:39
+msgid "Parent Category"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:44
+#: splendid-addons/custom-posts/testimonial.php:46
+#: splendid-addons/custom-posts/portfolio.php:40
+msgid "Parent Category:"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:45
+#: splendid-addons/custom-posts/testimonial.php:47
+#: splendid-addons/custom-posts/portfolio.php:41
+msgid "Edit Category"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:46
+#: splendid-addons/custom-posts/testimonial.php:48
+#: splendid-addons/custom-posts/portfolio.php:42
+msgid "Update Category"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:47
+#: splendid-addons/custom-posts/testimonial.php:49
+#: splendid-addons/custom-posts/portfolio.php:43
+msgid "Add New Category"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:48
+#: splendid-addons/custom-posts/testimonial.php:50
+#: splendid-addons/custom-posts/portfolio.php:44
+msgid "New Category Name"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:49
+#: splendid-addons/custom-posts/social-site.php:77
+#: splendid-addons/custom-posts/testimonial.php:51
+#: splendid-addons/custom-posts/portfolio.php:45
+msgid "Categories"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:64
+msgid "http:// Enter URL here"
+msgstr ""
+
+#: splendid-addons/custom-posts/social-site.php:78
+msgid "Order"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:6
+#: splendid-addons/custom-posts/special-content.php:7
+#: splendid-addons/custom-posts/special-content.php:18
+msgid "Special Content"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:9
+#: splendid-addons/custom-posts/portfolio.php:9
+msgid "Add New Item"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:10
+#: splendid-addons/custom-posts/portfolio.php:10
+msgid "Edit Item"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:11
+#: splendid-addons/custom-posts/portfolio.php:11
+msgid "New Item"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:12
+#: splendid-addons/custom-posts/portfolio.php:12
+msgid "All Items"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:13
+#: splendid-addons/custom-posts/portfolio.php:13
+msgid "View Item"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:14
+msgid "Search Special Content Items"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:15
+msgid "No Special Content items found"
+msgstr ""
+
+#: splendid-addons/custom-posts/special-content.php:16
+msgid "No Special Content items found in the Trash"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:6
+#: splendid-addons/custom-posts/team.php:7
+msgctxt "Team"
+msgid "Team"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:8
+msgctxt "Team"
+msgid "Add New"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:9
+msgid "Add New Team Member"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:10
+msgid "Edit Team Memeber"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:11
+msgid "New Team Member"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:12
+msgid "All Team Memebers"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:13
+msgid "View Team"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:14
+msgid "Search Team Member"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:15
+msgid "No Member found"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:16
+msgid "No Team Member found in the Trash"
+msgstr ""
+
+#: splendid-addons/custom-posts/team.php:18
+msgid "Team"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:7
+#: splendid-addons/custom-posts/testimonial.php:19
+msgid "Testimonials"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:8
+msgid "Testimonial"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:10
+msgid "Add New Testimonials"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:11
+msgid "Edit Testimonials"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:12
+msgid "New Testimonials"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:13
+msgid "All Testimonials"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:14
+msgid "View Testimonials"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:15
+msgid "Search Testimonials"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:16
+msgid "No Testimonials found"
+msgstr ""
+
+#: splendid-addons/custom-posts/testimonial.php:17
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:6
+msgctxt "Items"
+msgid "Portfolio"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:7
+msgctxt "Item"
+msgid "Portfolio"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:8
+msgctxt "Item"
+msgid "Add New"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:14
+msgid "Search Items"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:15
+msgid "No Items found"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:16
+msgid "No Items found in the Trash"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:18
+msgid "Portfolio"
+msgstr ""
+
+#: splendid-addons/custom-posts/portfolio.php:22
+msgid "Holds our products and product specific data"
+msgstr ""

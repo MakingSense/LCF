@@ -48,6 +48,7 @@
     "url": "https://github.com/MakingSense/MSUIF.git"
   },
   "dependencies": {
+    "gulp-rename": "^1.2.2",
     "sassdoc-theme-vulcan": "~0.2.0"
   },
   "devDependencies": {

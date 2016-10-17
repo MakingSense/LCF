@@ -19,14 +19,22 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
+
+if(isset($_ENV['WP_ENV']))
+	include('env/'.$_ENV['WP_ENV'].'.php');
+else {
+	include('env/dev.php');
+}
+global $env_config;
+
 /** The name of the database for WordPress */
-define('DB_NAME', 'lcf');
+define('DB_NAME', $env_config[db_name]);
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', $env_config[db_user]);
 
 /** MySQL database password */
-define('DB_PASSWORD', 'satelite');
+define('DB_PASSWORD', $env_config[db_password]);
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
